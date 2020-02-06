@@ -1,0 +1,294 @@
+{
+  "timestamp": "2020-02-05 02:34:15 UTC",
+  "algos": [
+    "PEARL",
+    "MAMLTRPO",
+    "MTPPO",
+    "RL2PPO"
+  ],
+  "envs": [
+    "ML1-reach-v1",
+    "ML1-push-v1",
+    "ML1-pick-place-v1",
+    "HalfCheetahVel"
+  ],
+  "runs": [
+    {
+      "chart-type": "line",
+      "run_name": "MAMLTRPO_garage_HalfCheetahVel_0",
+      "algo": "MAMLTRPO",
+      "impl": "garage",
+      "env": "HalfCheetahVel",
+      "run_no": "0",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "RL2PPO_ProMP_ML1-push-v1_0",
+      "algo": "RL2PPO",
+      "impl": "ProMP",
+      "env": "ML1-push-v1",
+      "run_no": "0",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": true
+    },
+    {
+      "chart-type": "line",
+      "run_name": "PEARL_garage_ML1-reach-v1_0",
+      "algo": "PEARL",
+      "impl": "garage",
+      "env": "ML1-reach-v1",
+      "run_no": "0",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "PEARL_garage_ML1-push-v1_1",
+      "algo": "PEARL",
+      "impl": "garage",
+      "env": "ML1-push-v1",
+      "run_no": "1",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "githash": "cfd3b740cc9fea2e0d82153e399c659f0bccc309",
+      "launcher": "ppo_ml1.py",
+      "chart-type": "line",
+      "run_name": "MTPPO_garage_ML1-reach-v1_0",
+      "algo": "MTPPO",
+      "impl": "garage",
+      "env": "ML1-reach-v1",
+      "run_no": "0",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "PEARL_garage_ML1-push-v1_0",
+      "algo": "PEARL",
+      "impl": "garage",
+      "env": "ML1-push-v1",
+      "run_no": "0",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "PEARL_garage_HalfCheetahVel_1",
+      "algo": "PEARL",
+      "impl": "garage",
+      "env": "HalfCheetahVel",
+      "run_no": "1",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "MAMLTRPO_garage_HalfCheetahVel_2",
+      "algo": "MAMLTRPO",
+      "impl": "garage",
+      "env": "HalfCheetahVel",
+      "run_no": "2",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "PEARL_garage_ML1-reach-v1_1",
+      "algo": "PEARL",
+      "impl": "garage",
+      "env": "ML1-reach-v1",
+      "run_no": "1",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "RL2PPO_garage_ML1-push-v1_1",
+      "algo": "RL2PPO",
+      "impl": "garage",
+      "env": "ML1-push-v1",
+      "run_no": "1",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "RL2PPO_garage_HalfCheetahVel_1",
+      "algo": "RL2PPO",
+      "impl": "garage",
+      "env": "HalfCheetahVel",
+      "run_no": "1",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "PEARL_garage_ML1-pick-place-v1_2",
+      "algo": "PEARL",
+      "impl": "garage",
+      "env": "ML1-pick-place-v1",
+      "run_no": "2",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "PEARL_garage_ML1-pick-place-v1_0",
+      "algo": "PEARL",
+      "impl": "garage",
+      "env": "ML1-pick-place-v1",
+      "run_no": "0",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "PEARL_garage_ML1-pick-place-v1_1",
+      "algo": "PEARL",
+      "impl": "garage",
+      "env": "ML1-pick-place-v1",
+      "run_no": "1",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "PEARL_garage_HalfCheetahVel_2",
+      "algo": "PEARL",
+      "impl": "garage",
+      "env": "HalfCheetahVel",
+      "run_no": "2",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "MAMLTRPO_garage_HalfCheetahVel_1",
+      "algo": "MAMLTRPO",
+      "impl": "garage",
+      "env": "HalfCheetahVel",
+      "run_no": "1",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "RL2PPO_ProMP_ML1-push-v1_1",
+      "algo": "RL2PPO",
+      "impl": "ProMP",
+      "env": "ML1-push-v1",
+      "run_no": "1",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": true
+    },
+    {
+      "chart-type": "line",
+      "run_name": "RL2PPO_garage_ML1-push-v1_2",
+      "algo": "RL2PPO",
+      "impl": "garage",
+      "env": "ML1-push-v1",
+      "run_no": "2",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "PEARL_garage_ML1-push-v1_2",
+      "algo": "PEARL",
+      "impl": "garage",
+      "env": "ML1-push-v1",
+      "run_no": "2",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "RL2PPO_garage_HalfCheetahVel_0",
+      "algo": "RL2PPO",
+      "impl": "garage",
+      "env": "HalfCheetahVel",
+      "run_no": "0",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "PEARL_garage_ML1-reach-v1_2",
+      "algo": "PEARL",
+      "impl": "garage",
+      "env": "ML1-reach-v1",
+      "run_no": "2",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "RL2PPO_garage_ML1-push-v1_0",
+      "algo": "RL2PPO",
+      "impl": "garage",
+      "env": "ML1-push-v1",
+      "run_no": "0",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "PEARL_garage_HalfCheetahVel_0",
+      "algo": "PEARL",
+      "impl": "garage",
+      "env": "HalfCheetahVel",
+      "run_no": "0",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    },
+    {
+      "chart-type": "line",
+      "run_name": "RL2PPO_ProMP_ML1-push-v1_2",
+      "algo": "RL2PPO",
+      "impl": "ProMP",
+      "env": "ML1-push-v1",
+      "run_no": "2",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": true
+    },
+    {
+      "chart-type": "line",
+      "run_name": "RL2PPO_garage_HalfCheetahVel_2",
+      "algo": "RL2PPO",
+      "impl": "garage",
+      "env": "HalfCheetahVel",
+      "run_no": "2",
+      "x_name": "TotalEnvSteps",
+      "y_name": "Evaluation/AverageDiscountedReturn",
+      "is_baseline": false
+    }
+  ]
+}
