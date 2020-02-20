@@ -1,0 +1,9 @@
+.box {
+    max-width: 800px;
+    margin: 100px auto 0;
+}
+
+.tabs {
+    width: 100px;
+    margin: 0 auto;
+}

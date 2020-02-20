@@ -1,0 +1,16 @@
+.dropdown {
+    position: relative;
+    top: -10px;
+}
+
+.dropdown-button {
+    width: 250px;
+}
+
+.dropdown-content {
+    width: 250px;
+}
+
+.dropdown-item {
+    width: 250px;
+}
